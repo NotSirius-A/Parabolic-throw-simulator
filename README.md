@@ -9,4 +9,4 @@ A Python app with a GUI that simulates parabolic throws based on user given vari
 - User is able to choose whether the simulation will be run in real time or accelerated/slowed time. It is determined through the "time multiplier" variable. A Time multiplier of >1 will accelerate and <1 will slow the simulation.
 - Many simulations can be run simultaneously (only one parent window needed).
 - All calculations are based on Newtonian physics, while all external forces (e.g. air drag) are omitted.
-- I have not encountered any problems, but the app can possibly stutter on low-end computers as computations are done very frequently (250 times per second) in order to maintain a smooth animation, therefore the app is fairly resource intensive. Also, python runs only on one CPU core, which further reduces the performance.
+- I have not encountered any problems, but the app can possibly stutter on low-end computers as computations are done very frequently (200 times per second) in order to maintain a smooth animation, therefore the app is fairly resource intensive. Also, python runs only on one CPU core, which further reduces the performance.
