@@ -203,7 +203,7 @@ class App:
 
 
     def is_invalid_data(self, data):
-        mx = 1e+10
+        mx = 1e+7
 
         try:
             if data['angle'] > 90 or data['angle'] < 0:
@@ -314,7 +314,7 @@ class App:
 class Simulator:
     def __init__(self, master, data):
         #!! Data here should be already clean, no data checks ahead 
-        #!! Data must be {'height':h, 'vel':V, 'grav':g, 'angle':a} and all within allowed range
+        #!! Data must be {'height':h, 'vel':V, 'grav':g, 'angle':a, 'time multiplier':t} and all within allowed range
         #!! All should be SI units
         #It's written for 1200x770 size, but it should be possible to switch, with relatively low effort
         self.master = master
