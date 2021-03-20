@@ -866,7 +866,7 @@ class Simulator:
 if __name__ == '__main__':
     root = tk.Tk()
 
-    root.title('parabolic')
+    root.title('Parabolic throw simulator')
 
     root.geometry("900x500")
 
