@@ -12,4 +12,4 @@ A Python app with a GUI that simulates parabolic throws based on user given vari
 - I have not encountered any problems, but the app can possibly stutter on low-end computers as computations are done very frequently (200 times per second) in order to maintain a smooth animation, therefore the app is fairly resource intensive. Also, python runs only on one CPU core, which further reduces the performance.
 
 ## Video demonstration
-https://youtu.be/-T8Okm5F4Hk
+- https://youtu.be/-T8Okm5F4Hk
