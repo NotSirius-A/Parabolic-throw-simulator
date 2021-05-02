@@ -4,7 +4,7 @@
 A Python app with a GUI that simulates parabolic throws based on user given variables (angle, velocity etc.).
 
 ## Notes
-- All user input sanitized (only numbers, that belong to the domain are allowed, also input can be non integer).
+- All user input sanitized (only numbers, that belong to the domain are allowed).
 - Opening an app will create a window, where user can enter necessary variables (SI units). Then, based on previously given variables, either a sketch can be generated ("Update Sketch" button) or a new simulation run ("Run simulation" button).
 - User is able to choose whether the simulation will be run in real time or accelerated/slowed time. It is determined through the "time multiplier" variable. A Time multiplier of >1 will accelerate and <1 will slow the simulation.
 - Many simulations can be run simultaneously (only one parent window needed).
